@@ -1,0 +1,29 @@
+.portfolio-list-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.button-portfolio {
+  padding: 6px 22px;
+  background-color: $c-light-grey-color;
+  color: $primary-text-color;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  border-color: transparent;
+  transition-property: background-color;
+
+  &:hover,
+  &:focus {
+  background-color: $accent-color;
+  color: $text-white-color;
+  }
+}
+
+.portfolio-list-button .button-item:not(:last-child) {
+  margin-right: 8px;
+}

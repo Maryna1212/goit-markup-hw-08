@@ -1,0 +1,87 @@
+.footer {
+  background-color: $c-dark-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+}
+
+.address-footer {
+  color: $text-dark-color;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contact-address {
+  margin-top: 20px;
+  margin-bottom: 9px;
+  color: $text-white-color;
+
+  p {
+  margin: 0;
+ }
+}
+
+.footer-mail {
+  margin-bottom: 9px;
+}
+
+.footer-socials {
+  margin-left: 70px;
+  margin-right: 93px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: $social-icon-color;
+  transition-property: background-color;
+
+  &:hover,
+  &:focus {
+  background-color: $link-accent-color;
+  }
+}
+
+.join {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $text-white-color;
+}
+
+.social-list {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-item {
+  width: 44px;
+  height: 44px;
+
+  &:not(:last-child) {
+  margin-right: 10px;
+  }
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}

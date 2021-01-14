@@ -1,0 +1,45 @@
+.features {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container-icon {
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  height: 120px;
+  background-color: $c-light-grey-color;
+  border-radius: 4px;
+}
+
+.icon-feature {
+  width: 70px;
+  height: 70px;
+  margin: 0;
+}
+
+.feature-item {
+   width: 270px;
+
+   &:not(:last-child) {
+   margin-right: 30px;
+  }
+}
+
+.title-feature {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.feature-description {
+  margin-top: 10px;
+  color: $title-text-color;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
