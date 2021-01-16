@@ -70,6 +70,28 @@ ul {
           align-items: center;
 }
 
+.menu-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-button .icon-close-button {
+  display: none;
+}
+
+.menu-button.is-open .icon-close-button {
+  display: block;
+}
+
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+
 .link {
   display: -webkit-box;
   display: -ms-flexbox;

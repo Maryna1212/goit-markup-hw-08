@@ -3,6 +3,26 @@
   align-items: center;
 }
 
+ .menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+ }
+
+  .menu-button .icon-close-button {
+  display: none;
+  }
+
+  .menu-button.is-open .icon-close-button {
+    display: block;
+  }
+
+  .menu-button.is-open .icon-menu {
+    display: none;
+  }
+
 .link {
   display: flex;
   align-items: center;
