@@ -56,6 +56,10 @@ ul {
   color: #ffffff;
 }
 
+.page-header {
+  position: relative;
+}
+
 .main-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,6 +93,33 @@ ul {
 
 .menu-button.is-open .icon-menu {
   display: none;
+}
+
+.header-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 393px;
+  padding: 60px 140px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.header-menu.is-open {
+  display: block;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.link:hover, .link:focus {
+  color: #2196f3;
 }
 
 .envelope-icon {
