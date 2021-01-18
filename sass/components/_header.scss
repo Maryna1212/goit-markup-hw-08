@@ -1,6 +1,8 @@
 .main-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
 }
 
  .menu-button {
@@ -23,58 +25,58 @@
     display: none;
   }
 
-.link {
-  display: flex;
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+// .link {
+//   display: flex;
+//   align-items: center;
+//   padding-top: 32px;
+//   padding-bottom: 32px;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 1.14;
 
-  &:hover,
-  &:focus {
-  color: $accent-color;
-}
-}
+//   &:hover,
+//   &:focus {
+//   color: $accent-color;
+// }
+// }
 
-.list-nav {
-  display: flex;
-  margin-left: 93px;
-}
+// .list-nav {
+//   display: flex;
+//   margin-left: 93px;
+// }
 
-.list-nav .item:not(:last-child) {
-  margin-right: 50px;
-}
+// .list-nav .item:not(:last-child) {
+//   margin-right: 50px;
+// }
 
-.contact-nav {
-  display: flex;
-  margin-left: auto;
-  color: $title-text-color;
-}
+// .contact-nav {
+//   display: flex;
+//   margin-left: auto;
+//   color: $title-text-color;
+// }
 
-.contact-nav .item + .item {
-  margin-left: 50px;
-}
+// .contact-nav .item + .item {
+//   margin-left: 50px;
+// }
 
-.list-nav .link.current {
-  color: $accent-color;
-}
+// .list-nav .link.current {
+//   color: $accent-color;
+// }
 
-.current {
-   position: relative;
+// .current {
+//    position: relative;
 
-   &::after {
-   content: "";
-   position: absolute;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   height: 4px;
-   background-color: $accent-color;
-   border-radius: 2px;
- }
-}
+//    &::after {
+//    content: "";
+//    position: absolute;
+//    left: 0;
+//    bottom: 0;
+//    width: 100%;
+//    height: 4px;
+//    background-color: $accent-color;
+//    border-radius: 2px;
+//  }
+// }
 
 .envelope-icon {
   margin-right: 10px;
@@ -90,6 +92,6 @@
   height: 16px;
 }
 
-.contact-name {
-  margin: 0;
-}
+// .contact-name {
+//   margin: 0;
+// }
