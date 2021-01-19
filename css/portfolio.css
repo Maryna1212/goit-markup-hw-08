@@ -1,5 +1,5 @@
 .container {
-  min-width: 480px;
+  width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -139,6 +139,12 @@ ul {
 
 .current .list-nav .link.current {
   color: #2196f3;
+}
+
+@media screen and (min-width: 1200px) {
+  .main-nav {
+    min-height: 80px;
+  }
 }
 
 @media screen and (min-width: 1200px) {

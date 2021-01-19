@@ -82,6 +82,12 @@
 // DESKTOP
 
 @media screen and (min-width: 1200px) {
+  .main-nav {
+   min-height: 80px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .link {
   display: flex;
   align-items: center;
