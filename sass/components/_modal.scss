@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  // width: 100%;
   height: 100%;
   background-color: $backdrop-grey-color;
 
@@ -25,7 +25,7 @@
   top: 50%;
   left: 50%;
 
-  min-width: 528px;
+  // min-width: 528px;
   min-height: 581px;
   background-color: $primary-white-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),

@@ -173,7 +173,6 @@ ul {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 100%;
   height: 4px;
   background-color: #2196f3;
   border-radius: 2px;
@@ -191,9 +190,6 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .link {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -210,18 +206,12 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .list-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     margin-left: 93px;
   }
   .item:not(:last-child) {
     margin-right: 50px;
   }
   .contact-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     margin-left: auto;
     color: #757575;
   }
@@ -249,9 +239,6 @@ ul {
 }
 
 .portfolio-list-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -288,16 +275,12 @@ ul {
 }
 
 .portfolio-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-bottom: 94px;
 }
 
 .portfolio-item {
-  width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
   -webkit-transition-property: -webkit-box-shadow;
@@ -341,7 +324,6 @@ ul {
 }
 
 .card {
-  width: 370px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -361,7 +343,6 @@ ul {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
   -webkit-transform: translateY(100%);
@@ -378,9 +359,6 @@ ul {
 }
 
 .text-overlay {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding: 63px 24px;
   font-family: Roboto;
   font-style: normal;
@@ -418,16 +396,7 @@ ul {
   padding-bottom: 60px;
 }
 
-.footer-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .address {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -462,9 +431,6 @@ ul {
 }
 
 .social-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -495,9 +461,6 @@ ul {
 }
 
 .social-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-top: 20px;
 }
 
@@ -517,13 +480,9 @@ ul {
 
 .footer-form {
   margin-left: auto;
-  width: 570px;
 }
 
 .form-mail {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -531,16 +490,12 @@ ul {
 }
 
 .footer-input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 358px;
   height: 50px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -554,9 +509,6 @@ ul {
 }
 
 .footer-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -568,7 +520,6 @@ ul {
   padding-bottom: 10px;
   padding-right: 28px;
   margin-left: 12px;
-  width: 200px;
   height: 50px;
   background-color: #2196f3;
   color: #ffffff;
