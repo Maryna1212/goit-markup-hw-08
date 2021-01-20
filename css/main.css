@@ -364,6 +364,12 @@ ul {
   letter-spacing: 0.03em;
 }
 
+@media screen and (max-width: 1199px) {
+  .work-section {
+    display: none;
+  }
+}
+
 .title-section-work {
   margin-bottom: 50px;
   margin-top: 0;
@@ -375,6 +381,9 @@ ul {
 }
 
 .list-work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -396,6 +405,7 @@ ul {
   padding-top: 27px;
   padding-bottom: 27px;
   height: 70px;
+  width: 100%;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

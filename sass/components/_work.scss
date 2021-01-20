@@ -1,3 +1,9 @@
+.work-section {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
 .title-section-work {
   margin-bottom: 50px;
   margin-top: 0;
@@ -9,7 +15,7 @@
 }
 
 .list-work {
-  // display: flex;
+  display: flex;
   align-items: center;
   padding-bottom: 94px;
 }
@@ -29,7 +35,7 @@
   padding-top: 27px;
   padding-bottom: 27px;
   height: 70px;
-  // width: 100%;
+  width: 100%;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
