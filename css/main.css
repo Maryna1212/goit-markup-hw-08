@@ -318,19 +318,45 @@ img {
   padding-bottom: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     padding-top: 94px;
     padding-bottom: 94px;
   }
 }
 
 .container-icon {
+  display: inline-block;
   margin-bottom: 30px;
-  padding: 25px 100px;
+  padding: 25px 190px;
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-icon {
+    padding: 25px 142px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-icon {
+    padding: 25px 100px;
+  }
 }
 
 .icon-feature {
@@ -339,7 +365,19 @@ img {
   margin: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .feature-item {
+    width: 354px;
+  }
+  .feature-item:nth-child(2n + 1) {
+    margin-right: 30px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
+  .feature-item {
+    width: 270px;
+  }
   .feature-item:not(:last-child) {
     margin-right: 30px;
   }
@@ -364,10 +402,11 @@ img {
 .feature-description {
   margin-top: 10px;
   margin-bottom: 30px;
-  color: #757575;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: #757575;
 }
 
 @media screen and (max-width: 1199px) {

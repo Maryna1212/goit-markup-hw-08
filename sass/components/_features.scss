@@ -2,19 +2,34 @@
   padding-top: 60px;
   padding-bottom: 30px;
 
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   @media screen and (min-width: 1200px) {
-  // display: flex;
+  display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
   }
 }
 
 .container-icon {
+  display: inline-block;
   margin-bottom: 30px;
-  padding: 25px 100px;
+  padding: 25px 190px;
   height: 120px;
   background-color: $c-light-grey-color;
   border-radius: 4px;
+
+  @media screen and (min-width: 768px) {
+    padding: 25px 142px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 25px 100px;
+  }
+
 }
 
 .icon-feature {
@@ -24,8 +39,17 @@
 }
 
 .feature-item {
-  //  width: 270px;
+  @media screen and (min-width: 768px) {
+    width: 354px;
+
+    &:nth-child(2n + 1) {
+    margin-right: 30px;
+   }
+  }
+  
   @media screen and (min-width: 1200px) {
+    width: 270px;
+
    &:not(:last-child) {
    margin-right: 30px;
   }
@@ -49,8 +73,9 @@
 .feature-description {
   margin-top: 10px;
   margin-bottom: 30px;
-  color: $title-text-color;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: $title-text-color;
 }
