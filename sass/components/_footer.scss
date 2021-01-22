@@ -4,13 +4,23 @@
   padding-bottom: 60px;
 }
 
-// .footer-container {
-//   display: flex;
-// }
+.footer-container {
 
-.address {
-  // display: flex;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .address {
+  display: flex;
   flex-direction: column;
+ }
 }
 
 .address-footer {
@@ -19,29 +29,73 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 61px;
+  }
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+    margin-bottom: 60px;
+  }
 }
 
 .contact-address {
   margin-top: 20px;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
   color: $text-white-color;
 
   p {
   margin: 0;
  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 9px;
+    margin-left: 0;
+  }
 }
 
 .footer-mail {
+  margin-bottom: 8px;
+
+  @media screen and (min-width: 1200px) {
   margin-bottom: 9px;
+  }
 }
 
 .footer-socials {
+  margin-left: 122px;
+  margin-right: 122px; 
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 165px;
+    margin-right: 74px; 
+    margin-bottom: 102px;
+  }
+
+  @media screen and (min-width: 1200px) {
   margin-left: 70px;
   margin-right: 93px;
+  }
+}
+
+.social-list {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-item {
+  width: 44px;
+  height: 44px;
+
+  &:not(:last-child) {
+  margin-right: 10px;
+  }
 }
 
 .social-link {
-  // display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 44px;
@@ -65,19 +119,11 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $text-white-color;
-}
 
-.social-list {
-  // display: flex;
-  margin-top: 20px;
-}
-
-.social-item {
-  width: 44px;
-  height: 44px;
-
-  &:not(:last-child) {
-  margin-right: 10px;
+  @media screen and (max-width: 1199px) {
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
