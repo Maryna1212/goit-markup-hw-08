@@ -1143,7 +1143,7 @@ textarea {
   background-color: #2196f3;
 }
 
-.join {
+.join, .footer-form-join {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -1155,7 +1155,7 @@ textarea {
 }
 
 @media screen and (max-width: 1199px) {
-  .join {
+  .join, .footer-form-join {
     display: block;
     padding-left: 30px;
     padding-right: 30px;
@@ -1168,27 +1168,41 @@ textarea {
 }
 
 .footer-form {
+  max-width: 450px;
   margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-form {
+    max-width: 570px;
+  }
+}
+
+.footer-form-join {
+  text-align: center;
 }
 
 .form-mail {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-top: 20px;
 }
 
+@media screen and (min-width: 1200px) {
+  .form-mail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .footer-input {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 358px;
+  width: 450px;
   height: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1198,10 +1212,33 @@ textarea {
   color: rgba(255, 255, 255, 0.3);
 }
 
+@media screen and (max-width: 1199px) {
+  .footer-input {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 358px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+  }
+}
+
 .footer-button {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1209,7 +1246,7 @@ textarea {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 28px;
-  margin-left: 12px;
+  width: 200px;
   height: 50px;
   background-color: #2196f3;
   color: #ffffff;
@@ -1217,11 +1254,35 @@ textarea {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  text-align: center;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-button {
+    margin-left: 125px;
+    margin-right: 125px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-button {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 12px;
+  }
 }
 
 .form-icon {

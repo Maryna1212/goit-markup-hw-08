@@ -1,22 +1,31 @@
 .footer-form {
+  max-width: 450px;
   margin-left: auto;
-  // width: 570px;
+  margin-right: auto;
+
+  @media screen and (min-width: 1200px) {
+     max-width: 570px;
+  }
+}
+
+.footer-form-join {
+  text-align: center;
 }
 
 .form-mail {
-  // display: flex;
-  align-items: center;
   margin-top: 20px;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .footer-input {
-  // display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 358px;
+  width: 450px;
   height: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -24,18 +33,29 @@
 
   background-color: $c-dark-color;
   color: rgba(255, 255, 255, 0.3);
+
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 358px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+  }
 }
 
 .footer-button {
-  // display: flex;
-  justify-content: center;
+  display: flex;
   align-items: center;
   padding-left: 29px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 28px;
-  margin-left: 12px;
-  // width: 200px;
+  width: 200px;
   height: 50px;
   background-color: $accent-color;
   color: $text-white-color;
@@ -43,10 +63,26 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
   cursor: pointer;
+
+  @media screen and (max-width: 767px) {
+  margin-left: 125px;
+  margin-right: 125px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    justify-content: center;
+    margin-left: 12px;
+  }
 }
 
 .form-icon {
