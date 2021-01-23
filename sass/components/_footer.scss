@@ -23,6 +23,12 @@
  }
 }
 
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .address-footer {
   color: $text-dark-color;
   font-style: normal;

@@ -461,6 +461,17 @@ img {
   }
 }
 
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
 .address-footer {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
