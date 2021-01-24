@@ -73,7 +73,7 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-logo {
-    margin-left: 110px;
+    margin-left: 70px;
   }
 }
 
@@ -419,8 +419,21 @@ img {
 }
 
 .card {
+  max-width: 450px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    max-width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card {
+    width: 370px;
+  }
 }
 
 .card:hover .portfolio-overlay {
@@ -438,6 +451,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
   -webkit-transform: translateY(100%);
@@ -454,6 +468,9 @@ img {
 }
 
 .text-overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 63px 24px;
   font-family: Roboto;
   font-style: normal;
@@ -483,6 +500,12 @@ img {
           box-sizing: border-box;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .card-content:nth-child(2) {
+    padding-right: 10px;
+  }
 }
 
 .footer {
@@ -529,7 +552,13 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: start;
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-nav {
+    text-align: start;
+  }
 }
 
 .address-footer {

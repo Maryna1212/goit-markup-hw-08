@@ -26,7 +26,11 @@
 .footer-nav {
   display: flex;
   flex-direction: column;
-  text-align: start
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+  text-align: start;
+  }
 }
 
 .address-footer {

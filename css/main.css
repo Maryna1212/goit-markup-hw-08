@@ -73,7 +73,7 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-logo {
-    margin-left: 110px;
+    margin-left: 70px;
   }
 }
 
@@ -1050,7 +1050,13 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: start;
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-nav {
+    text-align: start;
+  }
 }
 
 .address-footer {
