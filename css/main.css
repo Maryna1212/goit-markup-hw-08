@@ -73,7 +73,7 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-logo {
-    margin-left: 65px;
+    margin-left: 110px;
   }
 }
 
@@ -1059,6 +1059,12 @@ textarea {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .address-footer {
+    margin-left: 61px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
