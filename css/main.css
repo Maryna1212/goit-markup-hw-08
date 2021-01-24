@@ -1050,7 +1050,7 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
+  text-align: start;
 }
 
 .address-footer {
@@ -1059,12 +1059,6 @@ textarea {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
-
-@media screen and (min-width: 768px) {
-  .address-footer {
-    margin-left: 61px;
-  }
 }
 
 @media screen and (max-width: 1199px) {
