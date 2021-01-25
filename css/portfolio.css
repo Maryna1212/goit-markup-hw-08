@@ -127,15 +127,15 @@ img {
   }
 }
 
-.menu-button .icon-close-button {
+.menu-button .icon-menu {
   display: none;
 }
 
-.menu-button.is-open .icon-close-button {
+.menu-button.is-open .icon-menu {
   display: block;
 }
 
-.menu-button.is-open .icon-menu {
+.menu-button.is-open .icon-close-button {
   display: none;
 }
 

@@ -35,15 +35,15 @@
     display: none;
   } 
 
-  & .icon-close-button {
+  & .icon-menu {
     display: none;
   }
 
-  &.is-open .icon-close-button {
+  &.is-open .icon-menu {
     display: block;
   }
 
-  &.is-open .icon-menu {
+  &.is-open .icon-close-button {
     display: none;
   }
 }

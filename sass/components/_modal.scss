@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  // width: 100%;
+  width: 100%;
   height: 100%;
   background-color: $backdrop-grey-color;
 
@@ -25,8 +25,8 @@
   top: 50%;
   left: 50%;
 
-  // min-width: 528px;
-  min-height: 581px;
+  min-width: 450px;
+  min-height: 609px;
   background-color: $primary-white-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -36,12 +36,14 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   @media screen and (min-width: 768px) {
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 450px;
-  width: 100%;
+   transform: translate(-50%, -50%);
+   max-width: 450px;
+   width: 100%;
+  }
+
+  @media screen and (min-width: 1200px) {
+   min-width: 528px;
+   min-height: 581px;
   }
   
 }
